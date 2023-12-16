@@ -14,7 +14,7 @@ export default function App() {
         <NavStorage />
         <BarFitur />
         <Routes>
-          <Route path="" element="" />
+          <Route path="/Storage" element="" />
         </Routes>
       </Router>
       <ListItems />

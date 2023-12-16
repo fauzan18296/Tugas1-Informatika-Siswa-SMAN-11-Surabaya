@@ -10,8 +10,13 @@ export default function App() {
   return (
     <div className="myBg">
       <Title />
-      <NavStorage />
-      <BarFitur />
+      <Router>
+        <NavStorage />
+        <BarFitur />
+        <Routes>
+          <Route path="" element="" />
+        </Routes>
+      </Router>
       <ListItems />
     </div>
   );

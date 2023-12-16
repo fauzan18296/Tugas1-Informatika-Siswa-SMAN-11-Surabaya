@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
-const BarFitur = () => {
+const BarFeature = () => {
   return (
     <div className="text-feature mt-5" expand="xxl">
       <Container className="d-flex align-items-center sub-text ">
@@ -26,4 +26,4 @@ const BarFitur = () => {
     </div>
   );
 };
-export default BarFitur;
+export default BarFeature;

@@ -1,23 +1,19 @@
-import { useState } from "react";
-import Title from "./Components/TitleComp";
-import NavStorage from "./Components/NavStorageComp";
-import BarFitur from "./Components/BarFiturComp";
-import ListItems from "./Components/ListItemsComp";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./Style/LandingPages.css";
+import { useState } from "react";
+import Home from "./Pages/Home";
+import Storage from "./Pages/Storage";
 
-export default function App() {
+const App = () => {
   return (
-    <div className="myBg">
-      <Title />
+    <div>
       <Router>
-        <NavStorage />
-        <BarFitur />
+        <Home />
         <Routes>
-          <Route path="/Storage" element="" />
+          <Route path="/" element={<Home />} />
+          <Route path="/Storage" element={<Storage />} />
         </Routes>
       </Router>
-      <ListItems />
     </div>
   );
-}
+};
+export default App;

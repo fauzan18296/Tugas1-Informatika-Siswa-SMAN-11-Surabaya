@@ -1,5 +1,5 @@
 import Title from "../Components/Home/Title";
-import NavStorage from "../Components/Home/NavStorage";
+import NavStorageAndCloudes from "../Components/Home/NavStorageAndCloudes";
 import BarFeature from "../Components/Home/BarFeature";
 import ListItems from "../Components/Home/ListItems";
 
@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="myBg">
       <Title />
-      <NavStorage />
+      <NavStorageAndCloudes />
       <BarFeature />
       <ListItems />
     </div>

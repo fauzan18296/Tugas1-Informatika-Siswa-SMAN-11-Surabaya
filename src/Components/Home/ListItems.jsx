@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCirclePlay,
@@ -24,12 +25,13 @@ const ListItems = () => {
                   borderRadius: "10px",
                 }}
               />
-              <a
+              <Link
+                to="/newvideoshot"
                 href=""
                 className="text-center text-decoration-none fs-5 fw-bold text-black"
               >
                 New Video Shot
-              </a>
+              </Link>
 
               <caption className="cap mx-auto">168 Videos = 3.8 GB</caption>
             </Col>
@@ -45,12 +47,13 @@ const ListItems = () => {
                   borderRadius: "10px",
                 }}
               />
-              <a
+              <Link
+                to="/creativeuidesign"
                 href=""
                 className="text-decoration-none fs-5 fw-bold  text-black"
               >
                 Creative UI Design
-              </a>
+              </Link>
 
               <caption className="cap">518 image = 1.6 GB</caption>
             </Col>
@@ -66,12 +69,13 @@ const ListItems = () => {
                   borderRadius: "10px",
                 }}
               />
-              <a
+              <Link
+                to="/uiuxdesign"
                 href=""
                 className="text-decoration-none fs-5 fw-bold text-black"
               >
                 Ui/Ux Design
-              </a>
+              </Link>
 
               <caption className="cap">134 Files = 2.9 GB</caption>
             </Col>
@@ -87,12 +91,13 @@ const ListItems = () => {
                   borderRadius: "10px",
                 }}
               />
-              <a
+              <Link
+                to="/casestudypdf"
                 href=""
                 className="text-decoration-none fs-5 fw-bold text-black"
               >
                 Case Study PDF
-              </a>
+              </Link>
 
               <caption className="cap">65 Files = 1.2 GB</caption>
             </Col>
@@ -108,12 +113,13 @@ const ListItems = () => {
                   borderRadius: "10px",
                 }}
               />
-              <a
+              <Link
+                to="/imageeditingpro"
                 href=""
                 className="text-decoration-none fs-5 fw-bold text-black"
               >
                 Image Editing Pro
-              </a>
+              </Link>
 
               <caption className="cap">896 Image = 1.6 GB</caption>
             </Col>

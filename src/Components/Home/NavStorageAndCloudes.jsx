@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-const NavStorage = () => {
+const NavStorageAndCLoudes = () => {
   const navigate = useNavigate();
   return (
     <div
@@ -20,13 +21,13 @@ const NavStorage = () => {
         </Row>
         <Row className="justify-content-end align-items-end py-2 mx-auto">
           <Col className="mx-auto linkstorage">
-            <a href="" className="fs-3">
-              Storage
-            </a>
+            <Link to="/Cloudes" href="" className="fs-3">
+              Cloudes
+            </Link>
           </Col>
         </Row>
       </Container>
     </div>
   );
 };
-export default NavStorage;
+export default NavStorageAndCLoudes;

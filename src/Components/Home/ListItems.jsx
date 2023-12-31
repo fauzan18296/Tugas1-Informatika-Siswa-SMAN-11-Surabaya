@@ -32,7 +32,6 @@ const ListItems = () => {
               >
                 New Video Shot
               </Link>
-
               <caption className="cap mx-auto">168 Videos = 3.8 GB</caption>
             </Col>
           </Row>
@@ -54,8 +53,7 @@ const ListItems = () => {
               >
                 Creative UI Design
               </Link>
-
-              <caption className="cap">518 image = 1.6 GB</caption>
+              <caption className="cap mx-auto">518 image = 1.6 GB</caption>
             </Col>
           </Row>
           <Row className="mx-auto">
@@ -76,8 +74,7 @@ const ListItems = () => {
               >
                 Ui/Ux Design
               </Link>
-
-              <caption className="cap">134 Files = 2.9 GB</caption>
+              <caption className="cap mx-auto">134 Files = 2.9 GB</caption>
             </Col>
           </Row>
           <Row className="mx-auto">
@@ -98,8 +95,7 @@ const ListItems = () => {
               >
                 Case Study PDF
               </Link>
-
-              <caption className="cap">65 Files = 1.2 GB</caption>
+              <caption className="cap mx-auto">65 Files = 1.2 GB</caption>
             </Col>
           </Row>
           <Row className="mx-auto">
@@ -120,8 +116,7 @@ const ListItems = () => {
               >
                 Image Editing Pro
               </Link>
-
-              <caption className="cap">896 Image = 1.6 GB</caption>
+              <caption className="cap mx-auto">896 Image = 1.6 GB</caption>
             </Col>
           </Row>
         </div>

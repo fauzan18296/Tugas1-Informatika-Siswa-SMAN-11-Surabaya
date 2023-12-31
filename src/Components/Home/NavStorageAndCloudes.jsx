@@ -21,7 +21,7 @@ const NavStorageAndCLoudes = () => {
         </Row>
         <Row className="justify-content-end align-items-end py-2 mx-auto">
           <Col className="mx-auto linkstorage">
-            <Link to="/Cloudes" href="" className="fs-3">
+            <Link to="/cloudes" href="" className="fs-3">
               Cloudes
             </Link>
           </Col>

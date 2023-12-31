@@ -2,6 +2,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
 const BarFeature = () => {
+  const [btnFitur, setBtnFitur] = useState(null);
+  const [bgFitur, setBgFitur] = useState("#8865f2");
+  console.log(btnFitur);
+
   return (
     <div className="text-feature mt-5" expand="xxl">
       <Container className="d-flex align-items-center sub-text ">

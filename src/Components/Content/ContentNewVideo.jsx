@@ -1,5 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Footage1 from "../../assets/video/footage1.mp4";
+import Footage2 from "../../assets/video/footage2.mp4";
+import Footage3 from "../../assets/video/footage3.mp4";
+import Footage4 from "../../assets/video/footage4.mp4";
+import Footage5 from "../../assets/video/footage5.mp4";
+import Footage6 from "../../assets/video/footage6.mp4";
 
 const ContentNewVideo = () => {
   return (
@@ -16,7 +21,7 @@ const ContentNewVideo = () => {
         <Col className="d-flex justify-content-center">
           <video
             controls
-            src={Footage1}
+            src={Footage2}
             type="video/mp4"
             width={"300px"}
           ></video>
@@ -24,7 +29,7 @@ const ContentNewVideo = () => {
         <Col className="d-flex justify-content-center">
           <video
             controls
-            src={Footage1}
+            src={Footage3}
             type="video/mp4"
             width={"300px"}
           ></video>
@@ -32,7 +37,7 @@ const ContentNewVideo = () => {
         <Col className="d-flex justify-content-center">
           <video
             controls
-            src={Footage1}
+            src={Footage4}
             type="video/mp4"
             width={"300px"}
           ></video>
@@ -40,7 +45,7 @@ const ContentNewVideo = () => {
         <Col className="d-flex justify-content-center">
           <video
             controls
-            src={Footage1}
+            src={Footage5}
             type="video/mp4"
             width={"300px"}
           ></video>
@@ -48,7 +53,7 @@ const ContentNewVideo = () => {
         <Col className="d-flex justify-content-center">
           <video
             controls
-            src={Footage1}
+            src={Footage6}
             type="video/mp4"
             width={"300px"}
           ></video>

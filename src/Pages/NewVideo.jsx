@@ -12,10 +12,15 @@ const NewVideo = () => {
         flexDirection: "column",
         minHeight: "100vh",
         width: "100%",
+        maxWidth: "100%",
       }}
     >
-      <div className="text-center text-white">
-        <h1>New Video Random</h1>
+      <div className="text-center text-white my-4">
+        <h1>New Video Aestetic</h1>
+      </div>
+      <ContentNewVideo />
+      <div className="text-center text-white my-4">
+        <h1>New Video Meme</h1>
       </div>
       <ContentNewVideo />
     </div>

@@ -27,7 +27,6 @@ const ListItems = () => {
               />
               <Link
                 to="/newvideoshot"
-                href=""
                 className="text-center text-decoration-none fs-5 fw-bold text-black"
               >
                 New Video Shot
@@ -48,7 +47,6 @@ const ListItems = () => {
               />
               <Link
                 to="/creativeuidesign"
-                href=""
                 className="text-decoration-none fs-5 fw-bold  text-black"
               >
                 Creative UI Design
@@ -69,7 +67,6 @@ const ListItems = () => {
               />
               <Link
                 to="/uiuxdesign"
-                href=""
                 className="text-decoration-none fs-5 fw-bold text-black"
               >
                 Ui/Ux Design
@@ -90,7 +87,6 @@ const ListItems = () => {
               />
               <Link
                 to="/casestudypdf"
-                href=""
                 className="text-decoration-none fs-5 fw-bold text-black"
               >
                 Case Study PDF
@@ -111,7 +107,6 @@ const ListItems = () => {
               />
               <Link
                 to="/imageeditingpro"
-                href=""
                 className="text-decoration-none fs-5 fw-bold text-black"
               >
                 Image Editing Pro

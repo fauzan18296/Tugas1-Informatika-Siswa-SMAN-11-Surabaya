@@ -12,7 +12,7 @@ const NavStorageAndCLoudes = () => {
         <Row className="justify-content-start align-items-start py-1 mx-auto">
           <Col className="mx-auto ">
             <button
-              onClick={() => navigate("/Storage")}
+              onClick={() => navigate("/storage")}
               className="px-2 py-2 text-white fs-3 fw-bold btn"
             >
               Storage

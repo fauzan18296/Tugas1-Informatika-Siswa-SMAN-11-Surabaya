@@ -15,7 +15,7 @@ const NewVideo = () => {
       }}
     >
       <div className="d-flex align-items-center justify-content-start ms-4 my-3 fs-1">
-        <Link to="/*" className="text-white">
+        <Link to="/" className="text-white">
           <FontAwesomeIcon icon={faArrowLeft} />
         </Link>
       </div>
